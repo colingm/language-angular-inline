@@ -1,4 +1,4 @@
-# Inline HTML and CSS highlighting for Angular in Atom
+# Inline HTML and CSS highlighting for Angular in Atom in TS and JS files
 
 Adds syntax highlighting for inline template and styles in angular in Atom.
 
