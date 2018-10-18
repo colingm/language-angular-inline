@@ -1,6 +1,6 @@
 {
   "name": "language-angular-inline",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Inline HTML/CSS highlighting for Angular in Atom",
   "engines": {
     "atom": "*",
