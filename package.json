@@ -1,0 +1,21 @@
+{
+  "name": "language-angular-inline",
+  "version": "0.29.4",
+  "description": "Inline HTML/CSS highlighting for Angular in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://atom.github.io/language-angular-inline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colingm/language-angular-inline.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colingm/language-angular-inline/issues"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.10.1"
+  }
+}

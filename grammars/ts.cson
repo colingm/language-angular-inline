@@ -1,0 +1,36 @@
+scopeName: "ts.angular.inline"
+injectionSelector: "source.ts, source.js"
+patterns: [
+	{
+		name: "meta.template.html.ts"
+		begin: "(?<=template\\:)\\s*`"
+		beginCaptures:
+			"0":
+				name: "string.quoted.template.ts"
+		end: "`"
+		endCaptures:
+			"0":
+				name: "string.quoted.template.ts"
+		patterns: [
+			{
+				include: "text.html.basic"
+			}
+		]
+	}
+	{
+		name: "meta.template.css.ts"
+		begin: "(?<=styles\\:)\\s*(\\[)\\s*(`)"
+		beginCaptures:
+			"2":
+				name: "string.quoted.template.ts"
+		end: "`"
+		endCaptures:
+			"0":
+				name: "string.quoted.template.ts"
+		patterns: [
+			{
+				include: "source.css"
+			}
+		]
+	}
+]
